@@ -1,0 +1,28 @@
+1. Change downloaded filles to have 25 fps instead of 30
+
+2. Find a way to save the video input (Create a structure for that)
+NOTE# Save as json file
+each video will contain a list of landmarks
+Landmarks should be used in accordance to center point
+example
+{
+{label:"Book",
+ right_hand:[NULL,NULL,[{x:double,y:double,z:double},...{}]],
+ left_hand:[NULL,NULL,[{x:double,y:double,z:double},...{}]],
+  pose:[{},{},[{x:double,y:double,z:double},...{}]]
+}
+}
+
+3. Crete code to extract from the saved data
+
+
+
+
+NOTE# Probably fNr_RHand_point,FNr_Left_hand_points for CNN
+
+[RH_points,LH_points,Pose_points]
+[RH_points,LH_points,Pose_points]
+[RH_points,LH_points,Pose_points]
+[RH_points,LH_points,Pose_points]
+
+number of rows = Nr Of Frames

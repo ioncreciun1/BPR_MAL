@@ -1,0 +1,14 @@
+1 First step in creating the ML algorithm is gathering of data
+Data was gathered from 2 sources, MS-ASL dataset that we get from microsoft and WLASL dataset that we get from keggle.
+We combine those datasets in order to verify if there is any duplicates and then remove themm. After that we divide the dataset into train, validation and test. with the proportions of 64, 16, 20 out of 100%.
+
+
+#ADD ALL DATA IN ONE file with the following format:
+#label,videoId,frames_per_second
+
+#ONLY THESE WERE SELECTED BECAUSE OTHER ARE IRRELEVANT SINCE ALL VIDEOS ARE DOWNLOADED WITH THE REQUIRED LENGTH AND SKELETON WILL BE USED.
+
+#Convert all videos to have the same fps 25 will be the default length
+
+#FIND VIDEOS THAT ARE HIGHER THAN 60-70 frames and look at them #Either remove them or shorten them
+
