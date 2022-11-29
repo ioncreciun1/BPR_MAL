@@ -26,3 +26,9 @@ NOTE# Probably fNr_RHand_point,FNr_Left_hand_points for CNN
 [RH_points,LH_points,Pose_points]
 
 number of rows = Nr Of Frames
+
+
+#GET ALL DATA AND TRY WITH 200 epochs
+#CHECK Precision
+#Remove outliers (Videos that show different data, different words or multiple words)
+#Check Without outliers.
